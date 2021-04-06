@@ -1,0 +1,64 @@
+* {
+box-sizing: border-box;    
+}
+
+body  {
+    font-family : Oldtown;
+    background-color:whitesmoke;
+    text-align: center;
+
+}
+
+ /* nav bar  */
+ nav  {
+     background-color: rgb(63, 62, 62);
+
+ } 
+
+ img {
+    margin: 25px;
+}
+
+ nav ul li{
+    padding: 0%;
+    margin: 0%;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(202, 194, 194);
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+/* featcher */
+#featcher {
+    justify-content: right;
+    text-align: left;
+    display: inline-block ;
+    margin-top: 15px;
+    float: right;
+    width: 30%;
+}
+
+#imgFeatuer {
+   width: 30%;
+    float:left;
+    margin: 5%;
+    vertical-align: middle;
+
+
+}
+/* footer */
+footer {
+    clear: both;
+    background-color:  rgb(63, 62, 62);
+    height: 150px;
+    
+}
+
+button {
+border: 1px solid black;
+border-radius: 10px;
+height: 34px;
+width: 102px;
+font-weight: bold;
+}
